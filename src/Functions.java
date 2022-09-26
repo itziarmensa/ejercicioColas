@@ -1,22 +1,32 @@
 
-import java.util.Queue;
 
-public abstract class Functions implements Queue{
+public class Functions<E> implements Queue<E>{
 
-    private double max;
+    E[] elements;
+    int p;
 
-    public void push(Object e) throws FullQueueException{
-        if(size() == max - 1)
+    public void push(E e) throws FullQueueException{
+        if(isFull())
             throw new FullQueueException("La cola está llena");
-        add(e);
+        elements[p++] = e;
     }
-    public Object pop() throws EmptyQueueException{
-        if(size() == 0)
+
+    private boolean isFull() {
+        return size() > p;
+    }
+
+    public E pop() throws EmptyQueueException{
+        if(isEmpty())
             throw new EmptyQueueException("La cola está vacía");
-        return remove();
+        E primer = elements[0];
+        this.p--;
+        return primer;
     }
     public int size(){
-        return size();
+        return this.p;
+    }
+    private boolean isEmpty() {
+        return size() == 0;
     }
 
 }
