@@ -1,5 +1,7 @@
+
 public class Functions<E> implements Queue<E>{
     E[] elements;
+    E[] elementsPop;
     int p;
     public Functions(int l){
         this.elements=(E[]) new Object[l];
@@ -29,6 +31,9 @@ public class Functions<E> implements Queue<E>{
     public E pop() throws EmptyQueueException{
         if(isEmpty())
             throw new EmptyQueueException("La cola está vacía");
+        for(int i = 0; i <= p; i++){
+            elementsPop[i] = elements[i+1];
+        }
         E primer = elements[0];
         this.p--;
         return primer;
