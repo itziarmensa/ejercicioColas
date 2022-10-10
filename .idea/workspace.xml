@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1f547c-18f0-4b94-a61f-1db7c34b30d9" name="Changes" comment="Versión con problemas en la función POP." />
+    <list default="true" id="0f1f547c-18f0-4b94-a61f-1db7c34b30d9" name="Changes" comment="Versión con problemas en la función POP.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicioColas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicioColas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +42,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/OneDrive/Escritorio/Uni/4t/1r quatri/DSA/Unitat 2-OO, Java/ejercicioColas"
+    "last_opened_file_path": "C:/Users/oscar/Desktop/APUNTES/DSA/Códigos/Tema 2/ejercicioColas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,6 +80,7 @@
       <updated>1663845096037</updated>
       <workItem from="1665053969168" duration="2980000" />
       <workItem from="1665384047530" duration="59000" />
+      <workItem from="1665385467189" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="Versión inicial sin cambios">
       <created>1663845228268</created>
